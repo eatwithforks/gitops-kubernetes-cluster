@@ -9,11 +9,8 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    helm:
-      valueFiles:
-      - values.yaml
-    path: cluster-charts
-    repoURL: https://github.com/AlexsJones/gitops-kubernetes-cluster.git
+    path: cluster-deploys
+    repoURL: https://github.com/eatwithforks/gitops-kubernetes-cluster.git
     targetRevision: HEAD
   syncPolicy:
     automated: {}
