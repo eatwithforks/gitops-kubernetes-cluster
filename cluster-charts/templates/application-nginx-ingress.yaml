@@ -18,5 +18,5 @@ spec:
         value: LoadBalancer
       valueFiles:
       - values.yaml
-    repoURL: https://github.com/helm/charts/tree/master/stable/nginx-ingress
-    targetRevision: HEAD
+    repoURL: https://github.com/kubernetes/ingress-nginx/tree/main/charts/ingress-nginx
+    targetRevision: helm-chart-4.0.17
