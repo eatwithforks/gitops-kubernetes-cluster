@@ -11,6 +11,6 @@ spec:
   source:
     path: cluster-deploys
     repoURL: https://github.com/eatwithforks/gitops-kubernetes-cluster.git
-    targetRevision: HEAD
+    targetRevision: jyel/testargo
   syncPolicy:
     automated: {}
