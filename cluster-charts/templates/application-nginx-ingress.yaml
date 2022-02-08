@@ -18,5 +18,5 @@ spec:
         value: LoadBalancer
       valueFiles:
       - values.yaml
-    repoURL: git@github.com:kubernetes/ingress-nginx.git
+    repoURL: https://github.com/kubernetes/ingress-nginx
     targetRevision: 4.0.17
