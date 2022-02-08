@@ -11,12 +11,12 @@ spec:
     server: {{ .Values.cluster }}
   project: {{ .Values.project }}
   source:
-    chart: nginx-ingress
     helm:
       parameters:
       - name:  service.type
         value: LoadBalancer
       valueFiles:
       - values.yaml
-    repoURL: https://github.com/kubernetes/ingress-nginx
-    targetRevision: 4.0.17
+    repoURL: https://github.com/kubernetes/ingress-nginx.git
+    path: charts/ingress-nginx
+    targetRevision: HEAD
