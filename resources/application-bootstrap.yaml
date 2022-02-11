@@ -9,8 +9,8 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: cluster-deploys
+    path: cluster-charts
     repoURL: https://github.com/eatwithforks/gitops-kubernetes-cluster.git
-    targetRevision: HEAD
+    targetRevision: jyel/testargo
   syncPolicy:
     automated: {}
