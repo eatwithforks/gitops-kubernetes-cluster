@@ -11,6 +11,6 @@ spec:
   source:
     path: cluster-charts
     repoURL: https://github.com/eatwithforks/gitops-kubernetes-cluster.git
-    targetRevision: jyel/testargo
+    targetRevision: jyel/testvanilla
   syncPolicy:
     automated: {}
